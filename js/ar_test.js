@@ -82,7 +82,7 @@ function init() {
         patternUrl: "./data/mymarker.patt",
             smooth: true,
             smoothCount: 2,
-            smoothTolerance: 0.00001,
+            smoothTolerance: 0.000001,
             smoothThreshold: 0.00001,
     });
     scene.add(marker);
