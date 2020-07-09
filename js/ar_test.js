@@ -82,7 +82,7 @@ function init() {
             smooth: true,
             smoothCount: 2,
             smoothTolerance: 0.00001,
-            smoothThreshold: 0.0001,
+            smoothThreshold: 0.00001,
     });
     scene.add(marker);
 
