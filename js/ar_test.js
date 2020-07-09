@@ -79,7 +79,7 @@ function init() {
     var marker = new THREE.Group();
     var controls = new THREEx.ArMarkerControls(context, marker, {
         type: "pattern",
-        patternUrl: "./data/test.patt",
+        patternUrl: "./data/mymarker.patt",
             smooth: true,
             smoothCount: 3,
             smoothTolerance: 0.00001,
