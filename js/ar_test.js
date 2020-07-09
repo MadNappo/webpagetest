@@ -26,6 +26,7 @@ function init() {
     renderer.domElement.style.position = "absolute";
     renderer.domElement.style.top = "0px";
     renderer.domElement.style.left = "0px";
+    renderer.domElement.style.zIndex = 1;
     document.body.appendChild( renderer.domElement );
 
 
