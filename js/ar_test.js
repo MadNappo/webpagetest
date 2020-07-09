@@ -80,7 +80,7 @@ function init() {
         type: "pattern",
         patternUrl: "./data/test.patt",
             smooth: true,
-            smoothCount: 3,
+            smoothCount: 2,
             smoothTolerance: 0.00001,
             smoothThreshold: 0.0001,
     });
