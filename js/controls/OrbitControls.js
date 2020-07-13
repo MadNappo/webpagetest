@@ -643,7 +643,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 		if ( scope.enableZoom ) handleTouchStartDolly( event );
 
-		if ( scope.enablePan ) handleTouchStartPan( event );
+		//if ( scope.enablePan ) handleTouchStartPan( event );
 
 	}
 
