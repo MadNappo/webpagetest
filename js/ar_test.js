@@ -156,6 +156,7 @@ function init() {
         cam_ctrl.enableDamping = true;
         cam_ctrl.dampingFactor = 0.2;
         cam_ctrl.rotateSpeed =0.5;
+        cam_ctrl.enablePan = false;
         cam_ctrl.target.set(0, 0, 0);
     }
     scene.add(camera);
