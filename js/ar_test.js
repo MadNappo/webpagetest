@@ -158,9 +158,9 @@ function init() {
         cam_ctrl.rotateSpeed =0.5;
         cam_ctrl.enablePan = false;
         cam_ctrl.minDistance = 1.0;
-        cam_ctrl.maxDistance = 4.0;
+        cam_ctrl.maxDistance = 5.0;
         cam_ctrl.minZoom = 1.0;
-        cam_ctrl.maxZoom = 4.0;
+        cam_ctrl.maxZoom = 5.0;
         cam_ctrl.target.set(0, 0, 0);
     }
     scene.add(camera);
