@@ -297,7 +297,7 @@ function init() {
         count = loadcount + is_first_resize;
         if (tmp_count !== count) {
             $("#load-count").animate(
-                { width: (count / (files.length + 1)) * 100 + "%"},
+                { width: (count / (1 + 1)) * 100 + "%"},
                 { duration: 300, easing: 'swing'}
             );
             tmp_count = count;
