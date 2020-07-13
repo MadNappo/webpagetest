@@ -6,7 +6,7 @@ html * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: arial, "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+	font-family: "arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
 }
 body {
     padding: 0px;
@@ -32,7 +32,26 @@ body {
     align-items: center;
     justify-content: center;
 }
-.container p {
-    color: #FFFFFF;
-    margin: 10px;
+.row {
+    margin-left: auto;
+    margin-right: auto;
+	display: block;
 }
+p {
+    color: #FFFFFF;
+    margin: 5px 0px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+	display: block;
+}
+
+#load-count {
+    width: 0%;
+    height: 5px;
+    background-color: aquamarine;
+}
+

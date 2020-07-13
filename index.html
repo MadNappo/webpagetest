@@ -10,15 +10,19 @@
         <script src="js/loaders/GLTFLoader.js"></script>
         <script src="js/loaders/OBJLoader.js"></script>
         <script src="js/loaders/MTLLoader.js"></script>
+        <script src="js/controls/OrbitControls.js"></script>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div id="load-plane">
             <div class="container">
-                <img src="./imgs/icon_loader_a_gw_01_s1.gif" alt="load icon"/><br>
-                <p>Loading contents</p>
+                <div class="row">
+                    <img src="imgs/icon_loader_a_gw_01_s1.gif"/>
+                    <p>Loading contents</p>
+                    <div id="load-count"></div>
+                </div>         
             </div>
         </div>
-        <script src="js/ar_test.js"></script>
+        <script src="js/watch_ar.js"></script>
     </body>
 </html>
