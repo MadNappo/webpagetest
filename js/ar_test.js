@@ -200,7 +200,11 @@ function init() {
     new THREE.MeshLambertMaterial({color: 0x187FC4}), // bottom
     ];
     var cube = new THREE.Mesh( geometry, materials );
-    cube.position.set(0, 0.5, 0);
+    if (mode === DISPLAY_MODE.AR) {
+        cube.position.set(0, 0.5, 0);
+    } else {
+        cube.position.set(0, 0, 0);
+    }
     group.add(cube);
     loadcount = 1;
 
