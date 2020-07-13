@@ -157,8 +157,8 @@ function init() {
         cam_ctrl.dampingFactor = 0.2;
         cam_ctrl.rotateSpeed =0.5;
         cam_ctrl.enablePan = false;
-        cam_ctrl.minDistance = 0.5;
-        cam_ctrl.maxDistance = 2.0;
+        cam_ctrl.minDistance = 1.0;
+        cam_ctrl.maxDistance = 3.0;
         cam_ctrl.target.set(0, 0, 0);
     }
     scene.add(camera);
